@@ -2,16 +2,18 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+       int eaters = 5;
+       int water = 3000;
+       int potates = 5;
+       int chicken = 6;
+       int spices = 10;
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+       System.out.println("Сварили суп. На одного человека вышло");
+       System.out.println((water/eaters)+"миллилитров воды");
+       System.out.println((potates/eaters)+"картофелины");
+       System.out.println((chicken/eaters)+"куриное бедро");
+       System.out.println((spices/eaters)+"ложек специй");
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
         }
     }
 }
